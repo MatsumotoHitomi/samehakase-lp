@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>サメ博士のオンライン水族館</title>
+  <meta name="description" content="テレビで話題の若手研究者・宋青松（サメ博士）のオンライン水族館。サメ・エイ・ギンザメのコラム、サメ釣りイベント、カスタム剥製の最新情報をLINEでお届けします。">
+
+  <!-- OGP -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="サメ博士・宋青松のオンライン水族館">
+  <meta property="og:description" content="深海の世界へようこそ。サメ博士・宋くんのオンライン水族館。LINE登録で最新情報を受け取ろう。">
+  <meta property="og:image" content="images/hero-fv.jpg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Reggae+One&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ ヘッダー（固定・スクロールで出現） ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="wrap header-inner">
+      <a href="#hero" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22"><use href="#i-shark"/></svg>
+        </span>
+        <span class="brand-text">サメ博士・宋青松</span>
+      </a>
+      <a href="#join" class="btn btn-line btn-sm header-cta">
+        <img src="images/line-logo.svg" width="22" height="22" alt="" class="line-ico">
+        LINE登録
+      </a>
+    </div>
+  </header>
+
+  <!-- ============ ①ヒーロー ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="wrap hero-inner">
+      <span class="hero-badge"><span class="hb-slash">＼</span>サメっておもしろい<span class="hb-slash">／</span></span>
+
+      <!-- 上部（空・海側）：勢いのあるコピー -->
+      <div class="hero-copy">
+        <h1 class="hero-title-img">
+          <img src="images/title-outline.svg" alt="深海の世界へようこそ！ サメ博士・宋くんのオンライン水族館" width="408" height="416" decoding="async">
+        </h1>
+        <p class="hero-lead">圧倒的な知識と<span class="accent">深海魚への愛</span>！テレビで話題の若手研究者が贈る、ワクワクが止まらないサメの秘密。</p>
+
+        <!-- スクロール促し（リード文直下の水中エリアに浮かせる） -->
+        <a href="#proof" class="dive-cue" aria-label="下へスクロール">
+          <span class="dive-text">dive in</span>
+          <span class="dive-arrow" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="30" height="30"><use href="#i-chevron"/></svg>
+          </span>
+        </a>
+      </div>
+
+      <!-- 下半分（水中エリア）：LINE登録CTAクラスター -->
+      <div class="fv-cta">
+          <span class="fv-cta-label">
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><use href="#i-bubble"/></svg>
+            LINE登録で限定情報をお届け！
+          </span>
+
+          <a href="#" class="fv-line-svg" data-cta="line" aria-label="LINE登録：最新のサメ釣りイベント＆コラム情報を受け取る！">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 685 210" aria-hidden="true">
+              <defs>
+                <linearGradient id="buttonFill" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#63d75f"/>
+                  <stop offset=".42" stop-color="#0aa928"/>
+                  <stop offset="1" stop-color="#006c0c"/>
+                </linearGradient>
+                <radialGradient id="shine" cx=".35" cy=".1" r=".9">
+                  <stop offset="0" stop-color="#ffffff" stop-opacity=".55"/>
+                  <stop offset=".45" stop-color="#ffffff" stop-opacity=".08"/>
+                  <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+                </radialGradient>
+                <filter id="outerGlow" x="-8%" y="-22%" width="116%" height="144%">
+                  <feGaussianBlur stdDeviation="6" result="blur"/>
+                  <feFlood flood-color="#74ff68" flood-opacity=".7"/>
+                  <feComposite in2="blur" operator="in"/>
+                  <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+                </filter>
+                <filter id="textShadow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feDropShadow dx="0" dy="3" stdDeviation="2" flood-color="#00440a" flood-opacity=".42"/>
+                </filter>
+              </defs>
+              <g filter="url(#outerGlow)">
+                <rect x="6" y="8" width="673" height="194" rx="30" fill="url(#buttonFill)"/>
+                <rect x="6" y="8" width="673" height="194" rx="30" fill="url(#shine)"/>
+                <rect x="10" y="12" width="665" height="186" rx="26" fill="none" stroke="#ffffff" stroke-width="4" opacity=".92"/>
+              </g>
+              <g transform="translate(39 54)">
+                <path d="M55 0c35 0 55 20 55 46 0 25-19 43-47 47l-23 21 4-22C18 85 0 68 0 46 0 20 21 0 55 0z" fill="#ffffff"/>
+                <text x="55" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="800" fill="#06a927">LINE</text>
+              </g>
+              <g filter="url(#textShadow)" fill="#ffffff" font-family="'Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans JP',Arial,sans-serif" font-weight="900">
+                <text x="342" y="72" text-anchor="middle" font-size="38">【LINE登録】</text>
+                <text x="365" y="124" text-anchor="middle" font-size="34">最新のサメ釣りイベント＆</text>
+                <text x="365" y="171" text-anchor="middle" font-size="34">コラム情報を受け取る！</text>
+              </g>
+              <g transform="translate(606 79)">
+                <circle cx="27" cy="27" r="27" fill="#ffffff"/>
+                <path d="M22 15l13 12-13 12" fill="none" stroke="#08a727" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+              </g>
+              <g fill="none" stroke="#ffe600" stroke-linecap="round" stroke-width="4">
+                <path d="M-1 92l-31-18M5 117l-39 2M12 143l-31 20"/>
+                <path d="M686 92l31-18M680 117l39 2M673 143l31 20"/>
+              </g>
+            </svg>
+          </a>
+
+          <div class="fv-benefits">
+            <div class="fv-benefit">
+              <span class="fv-benefit-ic gold" aria-hidden="true"><svg viewBox="0 0 24 24" width="46" height="46"><use href="#i-cal"/></svg></span>
+              <p>次回の<br><span class="nb">サメ釣りイベント</span><br><b>先行予約</b><br>特別枠をご案内！</p>
+            </div>
+            <div class="fv-benefit">
+              <span class="fv-benefit-ic" aria-hidden="true"><img src="images/bone-icon.svg" width="50" height="52" alt="" decoding="async"></span>
+              <p><span class="nb">新作カスタム剥製</span><br><b>販売のお知らせ</b><br>限定アイテムを<br>見逃さない！</p>
+            </div>
+          </div>
+
+          <a href="#" class="fv-insta" data-cta="instagram">
+            <span class="fv-insta-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><use href="#i-insta"/></svg></span>
+            <span class="fv-insta-txt">
+              <b>Instagramで日常発信中！</b>
+              <span>サメの魅力や研究の裏側をお届けしています</span>
+            </span>
+            <span class="fv-insta-thumbs" aria-hidden="true">
+              <img src="images/insta-thumb1.jpg" alt="" loading="lazy">
+              <img src="images/insta-thumb2.jpg" alt="" loading="lazy">
+            </span>
+            <span class="fv-insta-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><use href="#i-arrow-r"/></svg></span>
+          </a>
+      </div>
+    </div>
+    <div class="wave-divider" aria-hidden="true"></div>
+  </section>
+
+  <!-- ============ ②PROOF / MOVIE ============ -->
+  <section class="section sec-proof deco-sea" id="proof">
+    <img class="sea-sil" src="images/bg-shark2.svg" alt="" aria-hidden="true" style="top:5%;right:-16px;width:98px;transform:rotate(7deg);opacity:.4">
+    <img class="sea-sil" src="images/bg-fish1.svg" alt="" aria-hidden="true" style="top:60%;left:4px;width:50px;transform:rotate(-12deg);opacity:.5">
+    <div class="wrap">
+      <span class="badge badge-gold">PROOF / MOVIE</span>
+      <h2 class="sec-title">世界も認める！<br>サメへの情熱と<br>ガチの研究実績</h2>
+
+      <!-- 動画枠（後でHTMLの動画を重ねやすい余白） -->
+      <div class="video-frame" role="img" aria-label="動画・出演クリップ配置エリア">
+        <button class="video-play" type="button" aria-label="動画を再生">
+          <svg viewBox="0 0 24 24" width="40" height="40" aria-hidden="true"><use href="#i-play"/></svg>
+        </button>
+        <div class="video-caption">
+          <p class="video-caption-title">動画・出演クリップ配置エリア</p>
+          <p class="video-caption-note">あとでHTMLの動画枠を重ねやすい余白</p>
+        </div>
+      </div>
+
+      <div class="proof-list">
+        <article class="proof-card">
+          <h3 class="proof-card-title">The Skulls Project</h3>
+          <p>米国エッカード大学での活動、世界的施設「ビミニ・シャークラボ」への標本寄贈。</p>
+        </article>
+        <article class="proof-card">
+          <h3 class="proof-card-title">JMIH 2024</h3>
+          <p>最高峰の国際会議でノコギリエイの研究を発表。</p>
+        </article>
+        <article class="proof-card">
+          <h3 class="proof-card-title">TV出演</h3>
+          <p>テレビ東京「ありえへん∞世界」で深海魚ハンターとして活躍。</p>
+        </article>
+        <article class="proof-card">
+          <h3 class="proof-card-title">現場ネットワーク</h3>
+          <p>深海ざめ漁師さん、シャークジャーナリストとの強い連携。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ③BENEFIT ============ -->
+  <section class="section sec-benefit deco-sea" id="benefit">
+    <img class="sea-sil" src="images/bg-shark1.svg" alt="" aria-hidden="true" style="top:16%;right:-24px;width:132px;transform:scaleX(-1) rotate(4deg);opacity:.38">
+    <img class="sea-sil" src="images/bg-fish1.svg" alt="" aria-hidden="true" style="bottom:10%;left:8px;width:58px;transform:rotate(8deg);opacity:.45">
+    <div class="wrap">
+      <span class="badge badge-gold">BENEFIT</span>
+      <h2 class="sec-title">LINE登録で<br>受け取れるもの</h2>
+
+      <div class="benefit-list">
+        <article class="benefit-card">
+          <span class="num-circle">1</span>
+          <div class="benefit-body">
+            <h3 class="benefit-title">読みもの</h3>
+            <p>愛と面白さ爆発。マニアックだけど超わかりやすい「サメ・エイ・ギンザメ」のコラム。</p>
+          </div>
+        </article>
+        <article class="benefit-card">
+          <span class="num-circle">2</span>
+          <div class="benefit-body">
+            <h3 class="benefit-title">イベント</h3>
+            <p>テレビの興奮をリアルに。「サメ博士といくサメ釣りイベント」の最新情報が届く。</p>
+          </div>
+        </article>
+        <article class="benefit-card">
+          <span class="num-circle">3</span>
+          <div class="benefit-body">
+            <h3 class="benefit-title">カスタム剥製</h3>
+            <p>世界に一つだけ。職人技が光る「サメのあご骨・あたまの骨」の案内。</p>
+          </div>
+        </article>
+      </div>
+
+      <a href="#join" class="btn btn-line btn-block btn-wide">
+        <img src="images/line-logo.svg" width="28" height="28" alt="" class="line-ico">
+        最新イベント＆コラム情報を受け取る
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ ④FOR YOU ============ -->
+  <section class="section sec-foryou deco-sea" id="foryou">
+    <img class="sea-sil" src="images/bg-fish1.svg" alt="" aria-hidden="true" style="top:8%;right:12px;width:64px;transform:scaleX(-1) rotate(-8deg);opacity:.5">
+    <img class="sea-sil" src="images/bg-shark1.svg" alt="" aria-hidden="true" style="bottom:12%;left:-20px;width:104px;transform:rotate(-5deg);opacity:.36">
+    <div class="wrap">
+      <span class="badge badge-gold">FOR YOU</span>
+      <h2 class="sec-title">こんな人に<br>おすすめです</h2>
+
+      <ul class="check-list">
+        <li class="check-item">
+          <span class="check-mark" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><use href="#i-check"/></svg></span>
+          <p>テレビを見て「宋くん」のサメ愛と面白い説明に惹かれた方</p>
+        </li>
+        <li class="check-item">
+          <span class="check-mark" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><use href="#i-check"/></svg></span>
+          <p>サメや深海魚の不思議な生態を、もっと面白く深く知りたい方</p>
+        </li>
+        <li class="check-item">
+          <span class="check-mark" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><use href="#i-check"/></svg></span>
+          <p>子供の知的好奇心を刺激する、楽しくて学びのあるコンテンツを探している方</p>
+        </li>
+        <li class="check-item">
+          <span class="check-mark" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><use href="#i-check"/></svg></span>
+          <p>普通の釣りでは味わえない、規格外の「サメ釣り」を体験してみたい方</p>
+        </li>
+      </ul>
+
+      <p class="foryou-closing"><span class="nb">知る・釣る・つくる。</span><span class="nb">深海の入口を、もっと近くに。</span></p>
+    </div>
+  </section>
+
+  <!-- ============ ⑤CUSTOM SPECIMEN ============ -->
+  <section class="section sec-custom deco-sea" id="custom">
+    <img class="sea-sil" src="images/bg-shark2.svg" alt="" aria-hidden="true" style="top:9%;left:-18px;width:92px;transform:rotate(-6deg);opacity:.36">
+    <img class="sea-sil" src="images/bg-fish1.svg" alt="" aria-hidden="true" style="bottom:16%;right:10px;width:54px;transform:scaleX(-1) rotate(10deg);opacity:.48">
+    <div class="wrap">
+      <span class="badge badge-gold">CUSTOM SPECIMEN</span>
+      <h2 class="sec-title">カスタム剥製が<br>届くまでの<br>ストーリー</h2>
+
+      <ol class="story-list">
+        <li class="story-step">
+          <span class="num-circle num-circle-timeline">1</span>
+          <div class="story-card">
+            <h3 class="story-title">現場の絆</h3>
+            <p>深海ざめ漁師さんから、通常は廃棄される貴重な部位を譲り受ける。</p>
+          </div>
+        </li>
+        <li class="story-step">
+          <span class="num-circle num-circle-timeline">2</span>
+          <div class="story-card">
+            <h3 class="story-title">熟練の技</h3>
+            <p>長時間の丁寧な作業と過酸化水素水を用いた、プロフェッショナル水準の調製。</p>
+          </div>
+        </li>
+        <li class="story-step">
+          <span class="num-circle num-circle-timeline">3</span>
+          <div class="story-card">
+            <h3 class="story-title">アートへの昇華</h3>
+            <p>生き物への敬意とストーリーを添えた、美術館レベルの美しい骨格標本をお届け。</p>
+          </div>
+        </li>
+      </ol>
+
+      <!-- 自動スクロールギャラリー（標本・研究フィールド） -->
+      <div class="spec-gallery" role="group" aria-label="標本・研究フィールドギャラリー">
+        <div class="spec-track" id="specTrack">
+          <div class="spec-item"><img src="images/gal-1.jpg" alt="サメの頭骨標本を持つ宋青松" loading="lazy" decoding="async"></div>
+          <div class="spec-item"><img src="images/gal-2.jpg" alt="ホホジロザメのあご骨標本" loading="lazy" decoding="async"></div>
+          <div class="spec-item"><img src="images/gal-3.jpg" alt="シュモクザメの頭骨標本" loading="lazy" decoding="async"></div>
+          <div class="spec-item"><img src="images/gal-4.jpg" alt="骨格標本コレクション" loading="lazy" decoding="async"></div>
+          <div class="spec-item"><img src="images/gal-5.jpg" alt="国際学会でのポスター発表" loading="lazy" decoding="async"></div>
+          <div class="spec-item"><img src="images/gal-6.jpg" alt="海中調査（エイと宋青松）" loading="lazy" decoding="async"></div>
+          <div class="spec-item"><img src="images/gal-7.jpg" alt="マングローブでのフィールド調査" loading="lazy" decoding="async"></div>
+        </div>
+      </div>
+
+      <a href="#" class="spec-buy" data-cta="shop">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><use href="#i-tag"/></svg>
+        カスタム剥製の販売ページへ
+        <svg class="spec-buy-arrow" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><use href="#i-arrow-r"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ ⑥PROFILE ============ -->
+  <section class="section sec-profile deco-sea" id="profile">
+    <img class="sea-sil" src="images/bg-fish1.svg" alt="" aria-hidden="true" style="top:10%;right:-8px;width:60px;transform:rotate(6deg);opacity:.42">
+    <img class="sea-sil" src="images/bg-shark1.svg" alt="" aria-hidden="true" style="bottom:8%;left:-22px;width:96px;transform:scaleX(-1) rotate(-4deg);opacity:.32">
+    <div class="wrap">
+      <span class="badge badge-gold">PROFILE</span>
+      <h2 class="profile-name">サメ博士・宋 青松<br><span class="profile-name-en">Seisho Song</span></h2>
+
+      <div class="profile-top">
+        <div class="profile-photo">
+          <img src="images/events-holding-shark.jpg" alt="サメを抱える宋青松さん" loading="lazy" decoding="async">
+        </div>
+        <ul class="profile-roles">
+          <li><span class="nb">環境学専攻の</span><span class="nb">若手研究者</span></li>
+          <li><span class="nb">深海魚ハンター</span></li>
+          <li><span class="nb">骨格標本</span><span class="nb">クリエイター</span></li>
+        </ul>
+      </div>
+
+      <div class="profile-bio">
+        <p>千葉県浦安市出身。米国フロリダ州<span class="nb">エッカード大学</span>在学（環境学専攻）。これまでに35種類以上のサメの頭骨標本を作成。テレビ東京「ありえへん∞世界」などに<span class="nb">深海魚ハンター</span>として出演し、圧倒的な知識と「愛がある面白い説明」で人気を集める。現場の漁師から国際的な研究機関まで、<span class="nb">幅広い</span><span class="nb">ネットワーク</span>を持つ実践的な活動家。</p>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <span class="stat-num">35+</span>
+          <span class="stat-label">サメ頭骨標本</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">TV</span>
+          <span class="stat-label">深海魚ハンター</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">USA</span>
+          <span class="stat-label">環境学専攻</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ⑦JOIN ============ -->
+  <section class="section sec-join deco-sea" id="join">
+    <img class="sea-sil" src="images/bg-shark1.svg" alt="" aria-hidden="true" style="top:14%;right:-16px;width:112px;transform:rotate(5deg);opacity:.34">
+    <img class="sea-sil" src="images/bg-fish1.svg" alt="" aria-hidden="true" style="top:5%;left:10px;width:56px;transform:scaleX(-1) rotate(-9deg);opacity:.46">
+    <div class="wrap">
+      <span class="badge badge-gold">JOIN</span>
+      <h2 class="sec-title">深海のニュースを<br>いちばん近くで</h2>
+
+      <div class="join-card">
+        <p class="join-lead">LINE登録で「次回のサメ釣りイベント先行予約」や「新作カスタム剥製販売」のお知らせをプッシュ配信！</p>
+        <a href="#" class="btn btn-line btn-block" data-cta="line">
+          <img src="images/line-logo.svg" width="28" height="28" alt="" class="line-ico">
+          LINE公式アカウントに登録する
+        </a>
+      </div>
+
+      <div class="insta-card">
+        <h3 class="insta-title">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><use href="#i-insta"/></svg>
+          Instagram 日常発信エリア
+        </h3>
+        <p>研究、標本制作、漁師さんとの現場、深海魚との出会いを更新。</p>
+        <a href="#" class="btn btn-insta" data-cta="instagram">Instagramへ</a>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p class="footer-title">サメ博士・宋青松 公式ウェブサイト</p>
+        <p class="footer-sub">Online Aquarium</p>
+      </div>
+    </footer>
+  </section>
+
+  <!-- ============ 追従CTA（モバイル下部） ============ -->
+  <a href="#join" class="sticky-cta" id="stickyCta">
+    <img src="images/line-logo.svg" width="26" height="26" alt="" class="line-ico">
+    LINE登録
+  </a>
+
+  <!-- ============ SVGスプライト（アイコン） ============ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-line" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 2C6.5 2 2 5.7 2 10.2c0 4 3.6 7.4 8.5 8 .3.1.8.2.9.5.1.3.1.7 0 1l-.1.9c0 .3-.2 1 .9.6 1.1-.5 6-3.5 8.2-6C21.7 13.9 22 12.1 22 10.2 22 5.7 17.5 2 12 2Z"/>
+        <path fill="#fff" d="M8.1 8.3H7c-.2 0-.3.1-.3.3v3.9c0 .2.1.3.3.3h1.1c.2 0 .3-.1.3-.3V8.6c0-.2-.1-.3-.3-.3Zm4.3 0h-1.1c-.2 0-.3.1-.3.3v2.3l-1.8-2.4v-.1h-1.2c-.2 0-.3.1-.3.3v3.9c0 .2.1.3.3.3h1.1c.2 0 .3-.1.3-.3v-2.3l1.8 2.5.1.1h1.1c.2 0 .3-.1.3-.3V8.6c0-.2-.1-.3-.3-.3Zm5 .3c0-.2-.1-.3-.3-.3h-2.5c-.2 0-.3.1-.3.3v3.9c0 .2.1.3.3.3h2.5c.2 0 .3-.1.3-.3v-1.1c0-.2-.1-.3-.3-.3h-1.1v-.4h1.1c.2 0 .3-.1.3-.3V9.7c0-.2-.1-.3-.3-.3h-1.1V9h1.1c.2 0 .3-.1.3-.3Z"/>
+      </symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path fill="currentColor" d="M9.6 16.2 5.4 12l-1.4 1.4 5.6 5.6L20.8 7.4 19.4 6 9.6 16.2Z"/></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5v14l11-7L8 5Z"/></symbol>
+      <symbol id="i-chevron" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6"/></symbol>
+      <symbol id="i-insta" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9a3.6 3.6 0 0 1-.9-1.4c-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2Zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1.1-1.7.2-2.1.4-.5.2-.9.4-1.3.8-.4.4-.6.8-.8 1.3-.2.4-.3 1-.4 2.1C2.6 8.5 2.6 8.9 2.6 12s0 3.5.1 4.7c.1 1.1.2 1.7.4 2.1.2.5.4.9.8 1.3.4.4.8.6 1.3.8.4.2 1 .3 2.1.4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1-.1 1.7-.2 2.1-.4.5-.2.9-.4 1.3-.8.4-.4.6-.8.8-1.3.2-.4.3-1 .4-2.1.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1.1-.2-1.7-.4-2.1a3.5 3.5 0 0 0-.8-1.3 3.5 3.5 0 0 0-1.3-.8c-.4-.2-1-.3-2.1-.4-1.2-.1-1.6-.1-4.7-.1Zm0 3.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8Zm0 8a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4Zm6.2-8.2a1.1 1.1 0 1 1-2.3 0 1.1 1.1 0 0 1 2.3 0Z"/></symbol>
+      <symbol id="i-shark" viewBox="0 0 24 24"><path fill="currentColor" d="M3 13c3-1 4-2 5-4 .5 2 1.5 3 3 3.5V7c2 1 3 3 3.5 5H21c-1 2-2.5 3-4.5 3.5l1 2-2.5-1.2c-1.3.5-2.8.7-4.5.7-3 0-5.5-1-6.5-2.5L3 15v-2Z"/></symbol>
+      <symbol id="i-shark-silhouette" viewBox="0 0 512 220">
+        <path fill="currentColor" d="M20 150c70-24 110-52 140-108 8 44 30 66 66 78 4-30 22-58 54-74-4 46 6 82 30 108l86-14 44 34-58 8 30 44-72-40c-34 14-76 22-126 22-70 0-128-24-152-58L20 170v-20Z"/>
+      </symbol>
+      <symbol id="i-fish" viewBox="0 0 64 32">
+        <path fill="currentColor" d="M2 16c14-14 34-14 46 0-12 14-32 14-46 0Zm46 0 14-10v20L48 16Z"/>
+        <circle cx="18" cy="13" r="1.6" fill="#041d3c"/>
+      </symbol>
+      <!-- カレンダー（先行予約） -->
+      <symbol id="i-cal" viewBox="0 0 24 24">
+        <rect x="3" y="5" width="18" height="16" rx="2.6" fill="none" stroke="currentColor" stroke-width="1.15"/>
+        <path d="M3 9.2h18" stroke="currentColor" stroke-width="1.15"/>
+        <path d="M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.15" stroke-linecap="round"/>
+        <g fill="currentColor"><circle cx="8" cy="13.5" r=".8"/><circle cx="12" cy="13.5" r=".8"/><circle cx="16" cy="13.5" r=".8"/><circle cx="8" cy="17.5" r=".8"/><circle cx="12" cy="17.5" r=".8"/></g>
+      </symbol>
+      <!-- サメの開いた顎（カスタム剥製） -->
+      <symbol id="i-jaws" viewBox="0 0 100 100">
+        <path fill="currentColor" d="M8,34 Q50,8 92,34 L84,47 L77,34 L70,47 L63,34 L56,47 L50,34 L44,47 L37,34 L30,47 L23,34 L16,47 L8,34 Z"/>
+        <path fill="currentColor" d="M8,66 Q50,92 92,66 L84,53 L77,66 L70,53 L63,66 L56,53 L50,66 L44,53 L37,66 L30,53 L23,66 L16,53 L8,66 Z"/>
+      </symbol>
+      <!-- シンプルなチャットバブル（LINE風） -->
+      <symbol id="i-bubble" viewBox="0 0 24 24"><path fill="currentColor" d="M12 3.2C6.6 3.2 2.2 6.7 2.2 11c0 2.5 1.4 4.6 3.7 6-.2.8-.6 2-.9 2.7-.1.3.2.6.5.4 1.5-.7 2.8-1.5 3.4-1.9 1 .2 2 .3 3.1.3 5.4 0 9.8-3.5 9.8-7.9S17.4 3.2 12 3.2Z"/></symbol>
+      <!-- 右向き矢印 -->
+      <symbol id="i-arrow-r" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <!-- 販売タグ -->
+      <symbol id="i-tag" viewBox="0 0 24 24"><path fill="currentColor" d="M11 2.5H5.5A3 3 0 0 0 2.5 5.5V11a2 2 0 0 0 .6 1.4l8.5 8.5a2.4 2.4 0 0 0 3.4 0l5.4-5.4a2.4 2.4 0 0 0 0-3.4l-8.5-8.5A2 2 0 0 0 11 2.5Zm-3.6 6a1.9 1.9 0 1 1 0-3.8 1.9 1.9 0 0 1 0 3.8Z"/></symbol>
+      <!-- きらめき（集中線） -->
+      <symbol id="i-spark" viewBox="0 0 20 40">
+        <g stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+          <path d="M17 7 L7 10"/><path d="M18 20 L6 20"/><path d="M17 33 L7 30"/>
+        </g>
+      </symbol>
+    </defs>
+  </svg>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
