@@ -608,6 +608,17 @@ ul, ol { list-style: none; padding: 0; }
   box-shadow: 0 6px 14px rgba(240,131,0,.32);
 }
 .check-item p { font-size: 15px; font-weight: 700; color: var(--navy-800); line-height: 1.7; }
+/* FOR YOU：巨大サメの大きなフィーチャー画像 */
+.foryou-hero {
+  margin: 4px auto 28px;
+  max-width: 480px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(126, 199, 236, .2);
+}
+.foryou-hero img { width: 100%; height: auto; display: block; }
+
 .foryou-closing {
   text-align: center;
   font-size: 15px;
