@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 276" role="img" aria-labelledby="title desc">
+  <title id="title">読みもの</title>
+  <desc id="desc">サメ・エイ・ギンザメのコラムを表す開いた本</desc>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+    <path fill="#F6F6F4" d="M34 69 Q83 57 132 84 Q181 57 230 69 L230 205 Q178 194 132 219 Q86 194 34 205 Z"/>
+    <path fill="#072758" d="M126 82 L132 84 L138 82 L138 205 L132 208 L126 205 Z M54 94 Q86 92 110 104 L110 116 Q84 104 54 106 Z M54 125 Q86 123 110 135 L110 147 Q84 135 54 137 Z M54 156 Q86 154 110 166 L110 178 Q84 166 54 168 Z M154 104 Q178 92 210 94 L210 106 Q180 104 154 116 Z M154 135 Q178 123 210 125 L210 137 Q180 135 154 147 Z M154 166 Q178 154 210 156 L210 168 Q180 166 154 178 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 276" role="img" aria-labelledby="title desc">
+  <title id="title">イベント</title>
+  <desc id="desc">サメ博士と楽しむ海の体験を表す日付マス付きカレンダー</desc>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+    <path fill="#F6F6F4" d="M60 62 H78 V48 Q78 40 86 40 Q94 40 94 48 V62 H170 V48 Q170 40 178 40 Q186 40 186 48 V62 H204 Q224 62 224 82 V216 Q224 236 204 236 H60 Q40 236 40 216 V82 Q40 62 60 62 Z"/>
+    <path fill="#072758" d="M54 96 H210 V108 H54 Z M70 128 H94 V152 H70 Z M120 128 H144 V152 H120 Z M170 128 H194 V152 H170 Z M70 178 H94 V202 H70 Z M120 178 H144 V202 H120 Z M170 178 H194 V202 H170 Z"/>
+  </g>
+</svg>
