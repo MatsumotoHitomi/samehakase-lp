@@ -733,6 +733,7 @@ ul, ol { list-style: none; padding: 0; }
   margin-bottom: 24px;
 }
 .profile-bio p { font-size: 14.5px; font-weight: 500; color: var(--ink-sub); line-height: 1.95; }
+.profile-bio p + p { margin-top: .9em; }
 .stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
