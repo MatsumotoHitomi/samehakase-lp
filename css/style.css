@@ -866,11 +866,11 @@ ul, ol { list-style: none; padding: 0; }
   .video-frame { aspect-ratio: 16 / 8; }
 
   /* FV（PC）：コピーを左寄せの余裕あるカラムに、文字を一回り大きく */
-  .hero-inner { max-width: 680px; margin: 0; padding-left: clamp(24px, 6vw, 88px); }
-  .hero-copy { max-width: 520px; }
-  .hero-title-img img { width: 300px; max-width: 100%; }
-  .hero-lead { font-size: 15px; max-width: 460px; line-height: 1.9; }
-  .hero-badge { font-size: 17px; left: 50%; top: -30px; }
+  .hero-inner { max-width: 700px; margin: 0; padding-left: clamp(24px, 6vw, 92px); }
+  .hero-copy { max-width: 540px; }
+  .hero-title-img img { width: 360px; max-width: 100%; }
+  .hero-lead { font-size: 16.5px; max-width: 430px; line-height: 1.95; }
+  .hero-badge { font-size: 18px; left: 50%; top: -32px; }
   .fv-cta { max-width: 560px; }
   .spec-item { width: 240px; height: 210px; }
 }
@@ -880,7 +880,8 @@ ul, ol { list-style: none; padding: 0; }
   .benefit-list { grid-template-columns: repeat(3, 1fr); }
   .benefit-card { flex-direction: column; text-align: left; }
   .sticky-cta { display: none; } /* PCではヘッダーCTAで十分 */
-  .hero-title-img img { width: 340px; }
+  .hero-title-img img { width: 400px; }
+  .hero-lead { font-size: 17px; max-width: 460px; }
   .hero-badge { left: 58%; }
 }
 
