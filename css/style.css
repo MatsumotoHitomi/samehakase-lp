@@ -608,16 +608,27 @@ ul, ol { list-style: none; padding: 0; }
   box-shadow: 0 6px 14px rgba(240,131,0,.32);
 }
 .check-item p { font-size: 15px; font-weight: 700; color: var(--navy-800); line-height: 1.7; }
-/* FOR YOU：巨大サメの大きなフィーチャー画像 */
+/* FOR YOU：メイン写真（宋さん＋巨大サメ）＋ 巨大サメ単体を小さく重ねる（PiP） */
 .foryou-hero {
-  margin: 4px auto 28px;
+  position: relative;
+  margin: 4px auto 30px;
   max-width: 480px;
+}
+.foryou-hero-main {
+  width: 100%; height: auto; display: block;
   border-radius: var(--radius);
-  overflow: hidden;
   box-shadow: var(--shadow);
   border: 1px solid rgba(126, 199, 236, .2);
 }
-.foryou-hero img { width: 100%; height: auto; display: block; }
+.foryou-hero-inset {
+  position: absolute;
+  right: -6px; bottom: -16px;
+  width: 30%;
+  height: auto;
+  border-radius: 12px;
+  border: 3px solid #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .4);
+}
 
 .foryou-closing {
   text-align: center;
