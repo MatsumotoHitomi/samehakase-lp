@@ -870,7 +870,8 @@ ul, ol { list-style: none; padding: 0; }
   .hero-copy { max-width: 560px; }
   .hero-title-img img { width: 400px; max-width: 100%; }
   .hero-lead { font-size: 17.5px; max-width: 460px; line-height: 1.9; }
-  .hero-badge { font-size: 19px; left: 62%; top: -32px; }
+  /* バッジ：人物の頭のすぐ上（約5pxの間隔）。頭の位置は画面幅で上下するのでvwで追従 */
+  .hero-badge { font-size: 19px; left: 69%; top: calc(12.7vw - 35px); }
   .fv-cta { max-width: 560px; }
   .spec-item { width: 240px; height: 210px; }
 }
@@ -882,7 +883,6 @@ ul, ol { list-style: none; padding: 0; }
   .sticky-cta { display: none; } /* PCではヘッダーCTAで十分 */
   .hero-title-img img { width: 440px; }
   .hero-lead { font-size: 18px; max-width: 480px; }
-  .hero-badge { left: 66%; }
 }
 
 /* =========================================================
