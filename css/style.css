@@ -831,7 +831,7 @@ ul, ol { list-style: none; padding: 0; }
   position: fixed;
   left: 50%;
   bottom: 16px;
-  transform: translate(-50%, 120%);
+  transform: translate(-50%, calc(100% + 60px)); /* 隠す時は影ごと画面外へ（頭が覗かないよう十分に下げる） */
   z-index: 55;
   display: inline-flex;
   align-items: center;
@@ -870,8 +870,8 @@ ul, ol { list-style: none; padding: 0; }
   .hero-copy { max-width: 560px; }
   .hero-title-img img { width: 400px; max-width: 100%; }
   .hero-lead { font-size: 17.5px; max-width: 460px; line-height: 1.9; }
-  /* バッジ：人物の頭のすぐ上（約5pxの間隔）。頭の位置は画面幅で上下するのでvwで追従 */
-  .hero-badge { font-size: 19px; left: 69%; top: calc(12.7vw - 35px); }
+  /* バッジ：人物の頭の真上に大きく（3〜5倍）。フォント・位置とも画面幅に追従させgap約5px維持 */
+  .hero-badge { font-size: 4.6vw; left: 69%; top: calc(4.53vw - 1px); }
   .fv-cta { max-width: 560px; }
   .spec-item { width: 240px; height: 210px; }
 }
